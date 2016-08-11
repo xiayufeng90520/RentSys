@@ -12,3 +12,13 @@ addnewhouse::~addnewhouse()
 {
     delete ui;
 }
+
+void addnewhouse::on_pbOK_clicked()
+{
+
+}
+
+void addnewhouse::on_pbCancle_clicked()
+{
+
+}

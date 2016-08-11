@@ -15,6 +15,11 @@ public:
     explicit addnewhouse(QWidget *parent = 0);
     ~addnewhouse();
 
+private slots:
+    void on_pbOK_clicked();
+
+    void on_pbCancle_clicked();
+
 private:
     Ui::addnewhouse *ui;
 };

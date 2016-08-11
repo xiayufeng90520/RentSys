@@ -15,6 +15,11 @@ public:
     explicit delhouse(QWidget *parent = 0);
     ~delhouse();
 
+private slots:
+    void on_pbOK_clicked();
+
+    void on_pbCancle_clicked();
+
 private:
     Ui::delhouse *ui;
 };

@@ -15,6 +15,11 @@ public:
     explicit houserenter(QWidget *parent = 0);
     ~houserenter();
 
+private slots:
+    void on_pbSave_clicked();
+
+    void on_pbCancle_clicked();
+
 private:
     Ui::houserenter *ui;
 };

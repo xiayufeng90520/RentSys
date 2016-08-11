@@ -12,3 +12,13 @@ houserenter::~houserenter()
 {
     delete ui;
 }
+
+void houserenter::on_pbSave_clicked()
+{
+
+}
+
+void houserenter::on_pbCancle_clicked()
+{
+
+}

@@ -12,3 +12,13 @@ delhouse::~delhouse()
 {
     delete ui;
 }
+
+void delhouse::on_pbOK_clicked()
+{
+
+}
+
+void delhouse::on_pbCancle_clicked()
+{
+
+}
