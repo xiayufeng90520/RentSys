@@ -15,6 +15,9 @@ public:
     explicit searchhouse(QWidget *parent = 0);
     ~searchhouse();
 
+private slots:
+    void on_pbSearch_clicked();
+
 private:
     Ui::searchhouse *ui;
 };

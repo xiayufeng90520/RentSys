@@ -12,3 +12,13 @@ showhouse::~showhouse()
 {
     delete ui;
 }
+
+void showhouse::on_pushButton_2_clicked()
+{
+
+}
+
+void showhouse::on_pushButton_3_clicked()
+{
+
+}

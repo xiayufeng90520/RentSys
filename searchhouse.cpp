@@ -12,3 +12,8 @@ searchhouse::~searchhouse()
 {
     delete ui;
 }
+
+void searchhouse::on_pbSearch_clicked()
+{
+
+}
